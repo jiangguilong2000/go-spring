@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/clock"
-	"github.com/go-spring/spring-base/knife"
-	"github.com/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/clock"
+	"github.com/jiangguilong2000/go-spring/spring-base/knife"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
 )
 
 type mockFilter struct {

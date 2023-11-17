@@ -18,7 +18,7 @@
 package StarterRabbitServer
 
 import (
-	"github.com/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
 	"github.com/streadway/amqp"
 )
 

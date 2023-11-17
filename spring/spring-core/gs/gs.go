@@ -30,13 +30,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/conf"
-	"github.com/go-spring/spring-core/dync"
-	"github.com/go-spring/spring-core/gs/arg"
-	"github.com/go-spring/spring-core/gs/cond"
-	"github.com/go-spring/spring-core/gs/internal"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-core/dync"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/cond"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/internal"
 )
 
 type refreshState int

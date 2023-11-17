@@ -23,8 +23,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
 	"github.com/golang/mock/gomock"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
 )
 
 func runCase(t *testing.T, f func(g *assert.MockT)) {

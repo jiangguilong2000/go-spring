@@ -17,10 +17,10 @@
 package StarterGrpcClient
 
 import (
-	"github.com/go-spring/spring-core/grpc"
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/gs/arg"
-	"github.com/go-spring/starter-grpc/client/factory"
+	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
+	"github.com/jiangguilong2000/go-spring/starter-grpc/client/factory"
 )
 
 func init() {

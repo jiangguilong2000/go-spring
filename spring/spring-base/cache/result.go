@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-spring/spring-base/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 // Result stores a value.

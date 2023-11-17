@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
 )
 
 func BenchmarkToString(b *testing.B) {

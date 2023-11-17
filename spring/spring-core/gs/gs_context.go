@@ -20,9 +20,9 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/conf"
-	"github.com/go-spring/spring-core/gs/arg"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
 )
 
 func (c *container) Keys() []string {

@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/go-spring/spring-core/redis"
-	"github.com/go-spring/spring-core/redis/test/cases"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis/test/cases"
 )
 
 func flushAll(conn redis.ConnPool) (string, error) {

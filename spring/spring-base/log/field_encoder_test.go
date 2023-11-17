@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
 )
 
 func TestEncoder(t *testing.T) {

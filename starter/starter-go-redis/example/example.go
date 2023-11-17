@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/redis"
-	_ "github.com/go-spring/starter-go-redis"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	_ "github.com/jiangguilong2000/go-spring/starter-go-redis"
 )
 
 type runner struct {

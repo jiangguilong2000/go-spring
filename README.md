@@ -186,9 +186,9 @@ Go-Spring 提供了一个功能强大的启动器框架，不仅实现了自动�
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func init() {
@@ -217,7 +217,7 @@ func main() {
 /Users/didi/go - hello world!
 ```
 
-更多示例： https://github.com/go-spring/go-spring/tree/master/examples
+更多示例： https://github.com/jiangguilong2000/go-spring/go-spring/tree/master/examples
 
 ### 普通路由
 
@@ -227,9 +227,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -253,9 +253,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -281,9 +281,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -307,9 +307,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -336,9 +336,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -363,9 +363,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 type HelloReq struct {
@@ -399,10 +399,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	"github.com/go-spring/spring-echo"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-echo"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
@@ -446,7 +446,7 @@ Unauthorized
 
 #### 贡献者
 
-<a href="https://github.com/go-spring/go-spring/graphs/contributors"><img src="https://contributors-img.web.app/image?repo=go-spring/go-spring" /></a>
+<a href="https://github.com/jiangguilong2000/go-spring/go-spring/graphs/contributors"><img src="https://contributors-img.web.app/image?repo=go-spring/go-spring" /></a>
 
 #### 特别鸣谢
 

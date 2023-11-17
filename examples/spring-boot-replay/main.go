@@ -19,13 +19,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/redis"
-	"github.com/go-spring/spring-core/web"
-	//_ "github.com/go-spring/starter-echo"
-	_ "github.com/go-spring/starter-gin"
-	_ "github.com/go-spring/starter-go-redis"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	//_ "github.com/jiangguilong2000/go-spring/starter-echo"
+	_ "github.com/jiangguilong2000/go-spring/starter-gin"
+	_ "github.com/jiangguilong2000/go-spring/starter-go-redis"
 )
 
 type controller struct {

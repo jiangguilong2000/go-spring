@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-base/util/testdata"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-base/util/testdata"
 )
 
 func TestPatchValue(t *testing.T) {

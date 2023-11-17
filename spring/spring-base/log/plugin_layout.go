@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-spring/spring-base/color"
-	"github.com/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-base/color"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
 )
 
 func init() {

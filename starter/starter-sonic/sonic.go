@@ -22,7 +22,7 @@ import (
 	"github.com/bytedance/sonic"
 	"github.com/bytedance/sonic/decoder"
 	"github.com/bytedance/sonic/encoder"
-	"github.com/go-spring/spring-base/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 func init() {

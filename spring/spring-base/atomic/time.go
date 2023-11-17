@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-spring/spring-base/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 type MarshalTime func(time.Time) ([]byte, error)

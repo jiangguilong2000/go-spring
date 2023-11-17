@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/go-spring/spring-core/redis"
-	SpringRedigo "github.com/go-spring/spring-redigo"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	SpringRedigo "github.com/jiangguilong2000/go-spring/spring-redigo"
 )
 
 func runCase(t *testing.T, c *redis.Case) {

@@ -7,8 +7,8 @@ package cond
 import (
 	reflect "reflect"
 
-	util "github.com/go-spring/spring-base/util"
-	conf "github.com/go-spring/spring-core/conf"
+	util "github.com/jiangguilong2000/go-spring/spring-base/util"
+	conf "github.com/jiangguilong2000/go-spring/spring-core/conf"
 	gomock "github.com/golang/mock/gomock"
 )
 

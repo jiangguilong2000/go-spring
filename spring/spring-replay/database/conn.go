@@ -25,9 +25,9 @@ package database
 //	"io"
 //	"unsafe"
 //
-//	"github.com/go-spring/spring-base/clock"
-//	"github.com/go-spring/spring-base/net/recorder"
-//	"github.com/go-spring/spring-base/net/replayer"
+//	"github.com/jiangguilong2000/go-spring/spring-base/clock"
+//	"github.com/jiangguilong2000/go-spring/spring-base/net/recorder"
+//	"github.com/jiangguilong2000/go-spring/spring-base/net/replayer"
 //)
 //
 //var (

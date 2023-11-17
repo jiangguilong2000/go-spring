@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-spring/spring-core/redis"
 	g "github.com/gomodule/redigo/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
 )
 
 func NewClient(config redis.Config) (*redis.Client, error) {

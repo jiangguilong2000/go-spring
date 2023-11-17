@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"github.com/go-openapi/spec"
-	"github.com/go-spring/spring-base/cast"
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/web"
-	"github.com/go-spring/spring-echo"
-	"github.com/go-spring/spring-swag"
-	"github.com/go-spring/spring-swag/swagger"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-echo"
+	"github.com/jiangguilong2000/go-spring/spring-swag"
+	"github.com/jiangguilong2000/go-spring/spring-swag/swagger"
 )
 
 func init() {

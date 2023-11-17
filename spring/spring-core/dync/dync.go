@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-spring/spring-base/atomic"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-base/atomic"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
 )
 
 // A Value represents a refreshable type.

@@ -21,9 +21,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-replay/internal/json"
-	"github.com/go-spring/spring-replay/recorder"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-replay/internal/json"
+	"github.com/jiangguilong2000/go-spring/spring-replay/recorder"
 )
 
 func printResult(t *testing.T, m map[string]string) {

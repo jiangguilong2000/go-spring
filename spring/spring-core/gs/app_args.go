@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
 )
 
 // LoadCmdArgs 加载以 -D key=value 或者 -D key[=true] 形式传入的命令行参数。

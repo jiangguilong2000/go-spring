@@ -19,7 +19,7 @@ package redis_test
 import (
 	"testing"
 
-	"github.com/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
 )
 
 func TestLIndex(t *testing.T) {

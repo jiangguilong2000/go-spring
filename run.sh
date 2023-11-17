@@ -66,7 +66,7 @@ function doc() {
   ln -sf "$WORKSPACE" "$MODULE_PATH"/"$MODULE_NAME"
 
   cd "$MODULE_PATH"/"$MODULE_NAME" || exit
-  python -m webbrowser "http://localhost:6060/pkg/github.com/go-spring/""$MODULE_NAME"
+  python -m webbrowser "http://localhost:6060/pkg/github.com/jiangguilong2000/go-spring/""$MODULE_NAME"
   godoc
 }
 

@@ -17,8 +17,8 @@
 package swagger
 
 import (
-	"github.com/go-spring/spring-core/web"
-	"github.com/go-spring/spring-swag"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-swag"
 )
 
 func Doc(server web.Server) *SpringSwagger.Swagger {

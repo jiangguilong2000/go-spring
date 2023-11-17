@@ -23,7 +23,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
 )
 
 // csvQuoteCount 查询字符串需要 quote 的次数，无需 quote 返回 0，

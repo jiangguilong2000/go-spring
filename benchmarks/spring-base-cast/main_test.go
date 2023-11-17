@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	SpringCast "github.com/go-spring/spring-base/cast"
+	SpringCast "github.com/jiangguilong2000/go-spring/spring-base/cast"
 	"github.com/spf13/cast"
 )
 

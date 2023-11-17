@@ -21,9 +21,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-core/web"
-	"github.com/go-spring/spring-core/web/middleware"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-core/web/middleware"
 )
 
 func TestRequestIDFilter(t *testing.T) {

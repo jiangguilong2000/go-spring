@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
 )
 
 // EnvPrefix 属性覆盖的环境变量需要携带该前缀。

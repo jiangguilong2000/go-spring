@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-spring/spring-core/grpc"
-	"github.com/go-spring/spring-core/gs"
-	pb "github.com/go-spring/starter-grpc/example/helloworld"
+	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	pb "github.com/jiangguilong2000/go-spring/starter-grpc/example/helloworld"
 
-	_ "github.com/go-spring/starter-grpc/server"
+	_ "github.com/jiangguilong2000/go-spring/starter-grpc/server"
 )
 
 func init() {

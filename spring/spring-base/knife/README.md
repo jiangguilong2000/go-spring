@@ -5,13 +5,13 @@ Provides cache on `context.Context`.
 ## Install
 
 ```
-go get github.com/go-spring/spring-base@v1.1.0-rc2 
+go get github.com/jiangguilong2000/go-spring/spring-base@v1.1.0-rc2 
 ```
 
 ## Import
 
 ```
-import "github.com/go-spring/spring-base/knife"
+import "github.com/jiangguilong2000/go-spring/spring-base/knife"
 ```
 
 ## Example

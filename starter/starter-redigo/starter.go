@@ -17,10 +17,10 @@
 package StarterRedigo
 
 import (
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/gs/cond"
-	"github.com/go-spring/spring-core/redis"
-	"github.com/go-spring/spring-redigo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/cond"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-redigo"
 )
 
 func init() {

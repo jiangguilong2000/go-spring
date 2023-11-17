@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
 )
 
 // Flatten can expand the nested array, slice and map.

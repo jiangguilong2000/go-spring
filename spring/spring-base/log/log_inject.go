@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-spring/spring-base/code"
-	"github.com/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-base/code"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
 )
 
 var converters = map[reflect.Type]util.Converter{}

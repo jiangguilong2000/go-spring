@@ -28,12 +28,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-spring/spring-base/cast"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/conf/internal"
-	"github.com/go-spring/spring-core/conf/prop"
-	"github.com/go-spring/spring-core/conf/toml"
-	"github.com/go-spring/spring-core/conf/yaml"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf/internal"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf/prop"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf/toml"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf/yaml"
 )
 
 // Splitter splits string into []string by some characters.

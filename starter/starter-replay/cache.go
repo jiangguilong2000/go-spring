@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/go-spring/spring-base/cache"
-	"github.com/go-spring/spring-base/knife"
-	"github.com/go-spring/spring-base/run"
+	"github.com/jiangguilong2000/go-spring/spring-base/cache"
+	"github.com/jiangguilong2000/go-spring/spring-base/knife"
+	"github.com/jiangguilong2000/go-spring/spring-base/run"
 )
 
 type replayInterface struct {

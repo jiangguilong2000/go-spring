@@ -29,13 +29,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/conf"
-	"github.com/go-spring/spring-core/grpc"
-	"github.com/go-spring/spring-core/gs/arg"
-	"github.com/go-spring/spring-core/mq"
-	"github.com/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/conf"
+	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
+	"github.com/jiangguilong2000/go-spring/spring-core/mq"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
 )
 
 // SpringBannerVisible 是否显示 banner。

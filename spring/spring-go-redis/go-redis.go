@@ -22,7 +22,7 @@ import (
 	"time"
 
 	g "github.com/go-redis/redis/v8"
-	"github.com/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
 )
 
 func NewClient(config redis.Config) (*redis.Client, error) {

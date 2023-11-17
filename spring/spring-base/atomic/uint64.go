@@ -19,7 +19,7 @@ package atomic
 import (
 	"sync/atomic"
 
-	"github.com/go-spring/spring-base/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 // An Uint64 is an atomic uint64 value.

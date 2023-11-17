@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/clock"
-	"github.com/go-spring/spring-base/knife"
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-replay/recorder"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/clock"
+	"github.com/jiangguilong2000/go-spring/spring-base/knife"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-replay/recorder"
 )
 
 func init() {

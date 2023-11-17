@@ -19,8 +19,8 @@ package recorder_test
 import (
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-replay/recorder"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-replay/recorder"
 )
 
 func TestCSV(t *testing.T) {

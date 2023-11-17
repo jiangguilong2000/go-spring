@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/grpc"
-	"github.com/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
 	g "google.golang.org/grpc"
 )
 

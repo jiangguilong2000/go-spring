@@ -20,8 +20,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
 )
 
 func TestFuncReader(t *testing.T) {

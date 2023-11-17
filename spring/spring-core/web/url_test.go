@@ -19,8 +19,8 @@ package web_test
 import (
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
 )
 
 func TestToPathStyle(t *testing.T) {

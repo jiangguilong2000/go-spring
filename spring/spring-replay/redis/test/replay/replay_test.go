@@ -19,7 +19,7 @@ package replay
 import (
 	"testing"
 
-	"github.com/go-spring/spring-core/redis/test/cases"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis/test/cases"
 )
 
 func RunCase(t *testing.T, c cases.Case) {

@@ -19,8 +19,8 @@ package StarterGoJSON
 import (
 	"io"
 
-	"github.com/go-spring/spring-base/json"
 	gojson "github.com/goccy/go-json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 func init() {

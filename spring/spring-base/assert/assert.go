@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-spring/spring-base/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/json"
 )
 
 // T is the minimum interface of *testing.T.

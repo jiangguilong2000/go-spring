@@ -21,7 +21,7 @@ import (
 	"reflect"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
 )
 
 // GinContext 将 web.Context 转换为 *gin.Context

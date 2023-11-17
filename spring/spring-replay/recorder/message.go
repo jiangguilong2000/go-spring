@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/go-spring/spring-base/cast"
-	"github.com/go-spring/spring-replay/internal/json"
+	"github.com/jiangguilong2000/go-spring/spring-base/cast"
+	"github.com/jiangguilong2000/go-spring/spring-replay/internal/json"
 )
 
 type Message func() string

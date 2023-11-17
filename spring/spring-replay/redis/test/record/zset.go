@@ -19,8 +19,8 @@ package record
 import (
 	"testing"
 
-	"github.com/go-spring/spring-core/redis"
-	"github.com/go-spring/spring-core/redis/test/cases"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	"github.com/jiangguilong2000/go-spring/spring-core/redis/test/cases"
 )
 
 func ZAdd(t *testing.T, conn redis.ConnPool) {

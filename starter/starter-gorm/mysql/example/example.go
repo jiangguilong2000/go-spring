@@ -19,11 +19,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
 	"gorm.io/gorm"
 
-	_ "github.com/go-spring/starter-gorm/mysql"
+	_ "github.com/jiangguilong2000/go-spring/starter-gorm/mysql"
 )
 
 type runner struct {

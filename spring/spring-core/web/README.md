@@ -32,13 +32,13 @@
 ## Installation
 
 ```
-go get github.com/go-spring/spring-core@v1.1.0-rc2 
+go get github.com/jiangguilong2000/go-spring/spring-core@v1.1.0-rc2 
 ```
 
 ## Import
 
 ```
-import "github.com/go-spring/spring-core/web"
+import "github.com/jiangguilong2000/go-spring/spring-core/web"
 ```
 
 ## Example
@@ -51,9 +51,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -77,9 +77,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -105,9 +105,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -131,9 +131,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -160,9 +160,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 func main() {
@@ -187,9 +187,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 )
 
 type HelloReq struct {
@@ -223,10 +223,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/web"
-	"github.com/go-spring/spring-echo"
-	_ "github.com/go-spring/starter-echo"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/jiangguilong2000/go-spring/spring-echo"
+	_ "github.com/jiangguilong2000/go-spring/starter-echo"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )

@@ -17,11 +17,11 @@
 package StarterMySqlGorm
 
 import (
-	"github.com/go-spring/spring-base/log"
-	"github.com/go-spring/spring-core/database"
-	"github.com/go-spring/spring-core/gs"
-	"github.com/go-spring/spring-core/gs/arg"
-	"github.com/go-spring/spring-core/gs/cond"
+	"github.com/jiangguilong2000/go-spring/spring-base/log"
+	"github.com/jiangguilong2000/go-spring/spring-core/database"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs/cond"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-core/web/binding"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-core/web/binding"
 )
 
 type FormBindParamCommon struct {

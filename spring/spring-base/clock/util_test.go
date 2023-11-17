@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-spring/spring-base/assert"
-	"github.com/go-spring/spring-base/clock"
+	"github.com/jiangguilong2000/go-spring/spring-base/assert"
+	"github.com/jiangguilong2000/go-spring/spring-base/clock"
 )
 
 func TestUnixMilli(t *testing.T) {

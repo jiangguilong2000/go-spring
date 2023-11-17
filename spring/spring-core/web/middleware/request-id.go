@@ -17,8 +17,8 @@
 package middleware
 
 import (
-	"github.com/go-spring/spring-core/web"
 	"github.com/google/uuid"
+	"github.com/jiangguilong2000/go-spring/spring-core/web"
 )
 
 type RequestIDConfig struct {

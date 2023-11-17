@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/go-spring/spring-base/util"
-	"github.com/go-spring/spring-core/gs"
-	_ "github.com/go-spring/starter-go-mongo"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	_ "github.com/jiangguilong2000/go-spring/starter-go-mongo"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

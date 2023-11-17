@@ -22,7 +22,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/go-spring/spring-base/util"
+	"github.com/jiangguilong2000/go-spring/spring-base/util"
 )
 
 // Consumer 消息消费者。

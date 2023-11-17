@@ -20,8 +20,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-spring/spring-base/knife"
-	"github.com/go-spring/spring-base/run"
+	"github.com/jiangguilong2000/go-spring/spring-base/knife"
+	"github.com/jiangguilong2000/go-spring/spring-base/run"
 )
 
 const nowKey = "::now::"
