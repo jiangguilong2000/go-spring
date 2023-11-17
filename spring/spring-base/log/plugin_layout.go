@@ -76,6 +76,7 @@ func (c *PatternLayout) ToBytes(e *Event) ([]byte, error) {
 	for _, step := range c.steps {
 		buf.WriteString(step(e))
 	}
+
 	buf.WriteByte('\n')
 	return buf.Bytes(), nil
 }
@@ -87,10 +88,10 @@ func (c *PatternLayout) parse(pattern string) error {
 		}
 	}
 	c.steps = append(c.steps, write("["))
-	c.steps = append(c.steps, c.getLevel)
+	c.steps = append(c.steps, c.getTime)
 	c.steps = append(c.steps, write("]"))
 	c.steps = append(c.steps, write("["))
-	c.steps = append(c.steps, c.getTime)
+	c.steps = append(c.steps, c.getLevel)
 	c.steps = append(c.steps, write("]"))
 	c.steps = append(c.steps, write("["))
 	c.steps = append(c.steps, c.getFileLine)
@@ -145,7 +146,7 @@ func (c *PatternLayout) getLevel(e *Event) string {
 }
 
 func (c *PatternLayout) getTime(e *Event) string {
-	return e.Time.Format("2006-01-02T15:04:05.000")
+	return e.Time.Format("2006-01-02 15:04:05.000")
 }
 
 func (c *PatternLayout) getFileLine(e *Event) string {
