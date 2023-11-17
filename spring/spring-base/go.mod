@@ -1,4 +1,4 @@
-module github.com/go-spring/spring-base
+module github.com/jiangguilong2000/go-spring/spring-base
 
 go 1.14
 

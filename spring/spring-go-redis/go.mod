@@ -1,13 +1,13 @@
-module github.com/go-spring/spring-go-redis
+module github.com/jiangguilong2000/go-spring/spring-go-redis
 
 go 1.14
 
 require (
 	github.com/go-redis/redis/v8 v8.11.4
-	github.com/go-spring/spring-core v1.1.3
+	github.com/jiangguilong2000/go-spring/spring-core v1.0.1
 )
 
 //replace (
-//	github.com/go-spring/spring-base => ../spring-base
-//	github.com/go-spring/spring-core => ../spring-core
+//	github.com/jiangguilong2000/go-spring/spring-base => ../spring-base
+//	github.com/jiangguilong2000/go-spring/spring-core => ../spring-core
 //)

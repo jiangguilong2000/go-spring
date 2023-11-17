@@ -1,10 +1,10 @@
-module github.com/go-spring/spring-core
+module github.com/jiangguilong2000/go-spring/spring-core
 
 go 1.14
 
 require (
 	github.com/antonmedv/expr v1.9.0
-	github.com/go-spring/spring-base v1.1.3
+	github.com/jiangguilong2000/go-spring/spring-base v1.0.1
 	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.3.0
 	github.com/magiconair/properties v1.8.5
@@ -12,4 +12,4 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-replace github.com/go-spring/spring-base => ../spring-base
+replace github.com/jiangguilong2000/go-spring/spring-base => ../spring-base
