@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/validate"
+	"github.com/go-spring/spring-core/validate"
 )
 
 const (

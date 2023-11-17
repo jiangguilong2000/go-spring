@@ -23,9 +23,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs/cond"
+	"github.com/go-spring/spring-base/util"
+	"github.com/go-spring/spring-core/gs/arg"
+	"github.com/go-spring/spring-core/gs/cond"
 )
 
 type beanStatus int8

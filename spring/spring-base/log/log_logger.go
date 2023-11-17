@@ -19,7 +19,7 @@ package log
 import (
 	"context"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/atomic"
+	"github.com/go-spring/spring-base/atomic"
 )
 
 type Logger struct {

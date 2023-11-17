@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
-	"github.com/jiangguilong2000/go-spring/spring-core/conf"
-	"github.com/jiangguilong2000/go-spring/spring-core/expr"
+	"github.com/go-spring/spring-base/util"
+	"github.com/go-spring/spring-core/conf"
+	"github.com/go-spring/spring-core/expr"
 )
 
 // Context defines some methods of IoC container that conditions use.

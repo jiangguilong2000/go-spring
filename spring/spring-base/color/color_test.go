@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/color"
+	"github.com/go-spring/spring-base/color"
 )
 
 func TestColor(t *testing.T) {

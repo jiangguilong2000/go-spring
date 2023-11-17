@@ -22,10 +22,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/knife"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
-	"github.com/jiangguilong2000/go-spring/spring-replay/internal/json"
-	"github.com/jiangguilong2000/go-spring/spring-replay/recorder"
+	"github.com/go-spring/spring-base/knife"
+	"github.com/go-spring/spring-base/util"
+	"github.com/go-spring/spring-replay/internal/json"
+	"github.com/go-spring/spring-replay/recorder"
 )
 
 func init() {

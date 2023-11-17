@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/log/internal"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/log/internal"
 )
 
 func TestCaller(t *testing.T) {

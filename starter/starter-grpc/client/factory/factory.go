@@ -17,7 +17,7 @@
 package factory
 
 import (
-	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
+	"github.com/go-spring/spring-core/grpc"
 	g "google.golang.org/grpc"
 )
 

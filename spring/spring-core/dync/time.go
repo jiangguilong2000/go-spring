@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/atomic"
-	"github.com/jiangguilong2000/go-spring/spring-core/conf"
+	"github.com/go-spring/spring-base/atomic"
+	"github.com/go-spring/spring-core/conf"
 )
 
 var _ Value = (*Time)(nil)

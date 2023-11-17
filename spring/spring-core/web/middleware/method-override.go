@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/go-spring/spring-core/web"
 )
 
 type MethodOverrideGetter func(ctx web.Context) string

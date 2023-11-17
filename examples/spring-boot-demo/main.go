@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/jiangguilong2000/go-spring/examples/spring-boot-demo/api"
-	_ "github.com/jiangguilong2000/go-spring/examples/spring-boot-demo/app"
-	_ "github.com/jiangguilong2000/go-spring/examples/spring-boot-demo/extension"
-	_ "github.com/jiangguilong2000/go-spring/examples/spring-boot-demo/filter"
-	_ "github.com/jiangguilong2000/go-spring/examples/spring-boot-demo/mock"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	_ "github.com/jiangguilong2000/go-spring/starter-echo"
-	_ "github.com/jiangguilong2000/go-spring/starter-go-redis"
-	_ "github.com/jiangguilong2000/go-spring/starter-gorm/mysql"
+	_ "github.com/go-spring/examples/spring-boot-demo/api"
+	_ "github.com/go-spring/examples/spring-boot-demo/app"
+	_ "github.com/go-spring/examples/spring-boot-demo/extension"
+	_ "github.com/go-spring/examples/spring-boot-demo/filter"
+	_ "github.com/go-spring/examples/spring-boot-demo/mock"
+	"github.com/go-spring/spring-core/gs"
+	_ "github.com/go-spring/starter-echo"
+	_ "github.com/go-spring/starter-go-redis"
+	_ "github.com/go-spring/starter-gorm/mysql"
 )
 
 func main() {

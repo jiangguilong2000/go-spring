@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/go-openapi/spec"
-	"github.com/jiangguilong2000/go-spring/spring-core/web"
+	"github.com/go-spring/spring-core/web"
 )
 
 // Swagger 封装 spec.Swagger 对象，提供流式调用

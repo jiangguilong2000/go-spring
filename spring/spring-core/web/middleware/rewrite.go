@@ -16,7 +16,7 @@
 
 package middleware
 
-import "github.com/jiangguilong2000/go-spring/spring-core/web"
+import "github.com/go-spring/spring-core/web"
 
 func NewRewriteFilter() *web.Prefilter {
 	return web.FuncPrefilter(func(ctx web.Context, chain web.FilterChain) {

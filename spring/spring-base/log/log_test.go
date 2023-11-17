@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/code"
-	"github.com/jiangguilong2000/go-spring/spring-base/log"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/code"
+	"github.com/go-spring/spring-base/log"
+	"github.com/go-spring/spring-base/util"
 )
 
 func TestAtomicAndMutex(t *testing.T) {
@@ -120,23 +120,23 @@ func TestGetLogger(t *testing.T) {
 	type class struct{}
 
 	logger := log.GetLogger(util.TypeName(new(Student)))
-	assert.Equal(t, logger.Name(), "github.com/jiangguilong2000/go-spring/spring-base/log/log_test.Student")
+	assert.Equal(t, logger.Name(), "github.com/go-spring/spring-base/log/log_test.Student")
 	logger.Info("1")
 
 	logger = log.GetLogger(util.TypeName(new(student)))
-	assert.Equal(t, logger.Name(), "github.com/jiangguilong2000/go-spring/spring-base/log/log_test.student")
+	assert.Equal(t, logger.Name(), "github.com/go-spring/spring-base/log/log_test.student")
 	logger.Info("2")
 
 	logger = log.GetLogger(util.TypeName(new(Class)))
-	assert.Equal(t, logger.Name(), "github.com/jiangguilong2000/go-spring/spring-base/log/log_test.Class")
+	assert.Equal(t, logger.Name(), "github.com/go-spring/spring-base/log/log_test.Class")
 	logger.Info("3")
 
 	logger = log.GetLogger(util.TypeName(new(class)))
-	assert.Equal(t, logger.Name(), "github.com/jiangguilong2000/go-spring/spring-base/log/log_test.class")
+	assert.Equal(t, logger.Name(), "github.com/go-spring/spring-base/log/log_test.class")
 	logger.Info("4")
 
 	logger = nil
-	assert.Equal(t, util.TypeName(logger), "github.com/jiangguilong2000/go-spring/spring-base/log/log.Logger")
+	assert.Equal(t, util.TypeName(logger), "github.com/go-spring/spring-base/log/log.Logger")
 }
 
 func TestLogger(t *testing.T) {

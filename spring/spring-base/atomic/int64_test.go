@@ -22,9 +22,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/atomic"
-	"github.com/jiangguilong2000/go-spring/spring-base/json"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/atomic"
+	"github.com/go-spring/spring-base/json"
 )
 
 func TestInt64(t *testing.T) {

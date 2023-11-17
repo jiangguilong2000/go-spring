@@ -21,10 +21,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/run"
+	"github.com/go-spring/spring-core/redis"
 	"github.com/golang/mock/gomock"
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/run"
-	"github.com/jiangguilong2000/go-spring/spring-core/redis"
 )
 
 type mockCase func(t *testing.T, ctx context.Context, client *redis.Client, mock *redis.MockDriver)

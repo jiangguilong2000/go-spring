@@ -19,9 +19,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/web"
-	_ "github.com/jiangguilong2000/go-spring/starter-echo"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/web"
+	_ "github.com/go-spring/starter-echo"
 )
 
 func init() {

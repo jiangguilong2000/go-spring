@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/knife"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/knife"
 )
 
 func TestKnife(t *testing.T) {

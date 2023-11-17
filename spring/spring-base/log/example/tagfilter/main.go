@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/log"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/log"
+	"github.com/go-spring/spring-base/util"
 )
 
 var buffers = map[string]*bytes.Buffer{}

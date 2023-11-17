@@ -20,8 +20,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/util"
 )
 
 func TestSortedKeys(t *testing.T) {

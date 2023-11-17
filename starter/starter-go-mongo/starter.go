@@ -19,11 +19,11 @@ package StarterGoMongo
 import (
 	"context"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/log"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs/arg"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs/cond"
-	"github.com/jiangguilong2000/go-spring/spring-core/mongo"
+	"github.com/go-spring/spring-base/log"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/gs/arg"
+	"github.com/go-spring/spring-core/gs/cond"
+	"github.com/go-spring/spring-core/mongo"
 	g "go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"

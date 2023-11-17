@@ -1,10 +1,10 @@
-module github.com/jiangguilong2000/go-spring/starter-sonic
+module github.com/go-spring/starter-sonic
 
 go 1.14
 
 require (
 	github.com/bytedance/sonic v1.5.0
-	github.com/jiangguilong2000/go-spring/spring-base v1.0.1
+	github.com/go-spring/spring-base v1.1.3
 )
 
-//replace github.com/jiangguilong2000/go-spring/spring-base => ../../spring/spring-base
+//replace github.com/go-spring/spring-base => ../../spring/spring-base

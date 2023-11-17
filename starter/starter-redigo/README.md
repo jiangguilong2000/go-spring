@@ -2,7 +2,7 @@
 
 [English](README_EN.md)
 
-[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/jiangguilong2000/go-spring/go-spring) 项目。
+[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/go-spring/go-spring) 项目。
 
 ## Installation
 
@@ -13,13 +13,13 @@
 ### Using go get
 
 ```
-go get github.com/jiangguilong2000/go-spring/starter-redigo@v1.1.0-rc2 
+go get github.com/go-spring/starter-redigo@v1.1.0-rc2 
 ```
 
 ## Quick Start
 
 ```
-import "github.com/jiangguilong2000/go-spring/starter-redigo"
+import "github.com/go-spring/starter-redigo"
 ```
 
 `main.go`
@@ -31,11 +31,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/redis"
+	"github.com/go-spring/spring-base/util"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/redis"
 	
-	_ "github.com/jiangguilong2000/go-spring/starter-redigo"
+	_ "github.com/go-spring/starter-redigo"
 )
 
 type runner struct {

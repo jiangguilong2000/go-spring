@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/json"
+	"github.com/go-spring/spring-base/json"
 )
 
 // A Duration is an atomic time.Duration value.

@@ -19,7 +19,7 @@ package StarterJsoniter
 import (
 	"io"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/json"
+	"github.com/go-spring/spring-base/json"
 	jsoniter "github.com/json-iterator/go"
 )
 

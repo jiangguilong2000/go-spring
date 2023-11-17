@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/cast"
-	"github.com/jiangguilong2000/go-spring/spring-base/log"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/cast"
+	"github.com/go-spring/spring-base/log"
+	"github.com/go-spring/spring-base/util"
 )
 
 // HandlerFunc 标准 Web 处理函数

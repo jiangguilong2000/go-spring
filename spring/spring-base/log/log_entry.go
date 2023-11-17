@@ -20,9 +20,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/clock"
-	"github.com/jiangguilong2000/go-spring/spring-base/log/internal"
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/clock"
+	"github.com/go-spring/spring-base/log/internal"
+	"github.com/go-spring/spring-base/util"
 )
 
 type T = func() []interface{}

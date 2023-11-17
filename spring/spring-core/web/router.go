@@ -19,7 +19,7 @@ package web
 import (
 	"net/http"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
+	"github.com/go-spring/spring-base/util"
 )
 
 const (

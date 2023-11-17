@@ -19,7 +19,7 @@ package atomic
 import (
 	"sync/atomic"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/json"
+	"github.com/go-spring/spring-base/json"
 )
 
 // An Int32 is an atomic int32 value.

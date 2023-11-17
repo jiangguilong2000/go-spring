@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/json"
+	"github.com/go-spring/spring-base/json"
 )
 
 // A Float32 is an atomic float32 value.

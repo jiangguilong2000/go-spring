@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/cast"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/cast"
 )
 
 func BenchmarkToTime(b *testing.B) {

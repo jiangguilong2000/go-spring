@@ -1,3 +1,3 @@
-module github.com/jiangguilong2000/go-spring/spring-rabbit
+module github.com/go-spring/spring-rabbit
 
 go 1.14

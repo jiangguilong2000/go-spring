@@ -17,8 +17,8 @@
 package mock
 
 import (
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/starter-gorm/mysql/factory"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/starter-gorm/mysql/factory"
 	"gorm.io/gorm"
 )
 

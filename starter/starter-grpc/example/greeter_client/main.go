@@ -23,11 +23,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/web"
-	pb "github.com/jiangguilong2000/go-spring/starter-grpc/example/helloworld"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/web"
+	pb "github.com/go-spring/starter-grpc/example/helloworld"
 
-	_ "github.com/jiangguilong2000/go-spring/starter-grpc/client"
+	_ "github.com/go-spring/starter-grpc/client"
 )
 
 const (

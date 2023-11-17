@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-base/clock"
-	"github.com/jiangguilong2000/go-spring/spring-base/knife"
-	"github.com/jiangguilong2000/go-spring/spring-replay/recorder"
-	"github.com/jiangguilong2000/go-spring/spring-replay/replayer"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-base/clock"
+	"github.com/go-spring/spring-base/knife"
+	"github.com/go-spring/spring-replay/recorder"
+	"github.com/go-spring/spring-replay/replayer"
 )
 
 func init() {

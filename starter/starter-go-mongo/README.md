@@ -2,7 +2,7 @@
 
 [English](README_EN.md)
 
-[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/jiangguilong2000/go-spring/go-spring) 项目。
+[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/go-spring/go-spring) 项目。
 
 ## Installation
 
@@ -13,13 +13,13 @@
 ### Using go get
 
 ```
-go get github.com/jiangguilong2000/go-spring/starter-go-mongo@v1.1.0-rc2 
+go get github.com/go-spring/starter-go-mongo@v1.1.0-rc2 
 ```
 
 ## Quick Start
 
 ```
-import "github.com/jiangguilong2000/go-spring/starter-go-mongo"
+import "github.com/go-spring/starter-go-mongo"
 ```
 
 `main.go`
@@ -31,9 +31,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/util"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	_ "github.com/jiangguilong2000/go-spring/starter-go-mongo"
+	"github.com/go-spring/spring-base/util"
+	"github.com/go-spring/spring-core/gs"
+	_ "github.com/go-spring/starter-go-mongo"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

@@ -20,10 +20,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-core/conf"
-	"github.com/jiangguilong2000/go-spring/spring-core/dync"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-core/conf"
+	"github.com/go-spring/spring-core/dync"
+	"github.com/go-spring/spring-core/gs"
 )
 
 type DynamicConfig struct {

@@ -1,4 +1,4 @@
-module github.com/jiangguilong2000/go-spring/go-spring/tools/fieldalignment
+module github.com/go-spring/go-spring/tools/fieldalignment
 
 go 1.14
 

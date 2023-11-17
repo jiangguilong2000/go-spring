@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/expr"
+	"github.com/go-spring/spring-core/expr"
 )
 
 var validators = map[string]Validator{

@@ -27,7 +27,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/atomic"
+	"github.com/go-spring/spring-base/atomic"
 )
 
 // configLoggers 配置文件中的 Logger 对象，is safe for map[string]privateConfig.

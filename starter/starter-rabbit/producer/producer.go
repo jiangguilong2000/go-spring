@@ -19,9 +19,9 @@ package StarterRabbitProducer
 import (
 	"context"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/mq"
-	"github.com/jiangguilong2000/go-spring/starter-rabbit/server"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/mq"
+	"github.com/go-spring/starter-rabbit/server"
 	"github.com/streadway/amqp"
 )
 

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-core/gs"
 )
 
 func startApplication(cfgLocation string, fn func(gs.Context)) *gs.App {

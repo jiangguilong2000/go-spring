@@ -1,6 +1,6 @@
 # spring-core
 
-[仅发布] 该项目仅为最终发布，开发请关注 [go-spring](https://github.com/jiangguilong2000/go-spring/go-spring) 项目。
+[仅发布] 该项目仅为最终发布，开发请关注 [go-spring](https://github.com/go-spring/go-spring) 项目。
 
 实现了一个功能完善的运行时 IoC 容器。
 
@@ -491,7 +491,7 @@ func SafeGoroutine(fn GoFunc)
 
 #### TypeName
 
-返回原始类型的全限定名，Go 语言允许不同的路径下存在相同的包，因此有全限定名的需求，形如 "github.com/jiangguilong2000/go-spring/spring-core/SpringCore.BeanDefinition"。
+返回原始类型的全限定名，Go 语言允许不同的路径下存在相同的包，因此有全限定名的需求，形如 "github.com/go-spring/spring-core/SpringCore.BeanDefinition"。
 
     func TypeName(typOrPtr TypeOrPtr) string
 

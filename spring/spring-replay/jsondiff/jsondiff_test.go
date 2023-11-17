@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jiangguilong2000/go-spring/spring-base/assert"
-	"github.com/jiangguilong2000/go-spring/spring-replay/jsondiff"
+	"github.com/go-spring/spring-base/assert"
+	"github.com/go-spring/spring-replay/jsondiff"
 )
 
 func TestDiff(t *testing.T) {

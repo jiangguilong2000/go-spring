@@ -17,7 +17,7 @@
 package log
 
 import (
-	"github.com/jiangguilong2000/go-spring/spring-base/log/queue"
+	"github.com/go-spring/spring-base/log/queue"
 )
 
 func init() {

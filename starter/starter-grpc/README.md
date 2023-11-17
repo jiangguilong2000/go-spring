@@ -2,7 +2,7 @@
 
 [English](README_EN.md)
 
-[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/jiangguilong2000/go-spring/go-spring) 项目。
+[仅发布] 该项目仅为最终发布，不要向该项目直接提交代码，开发请关注 [go-spring](https://github.com/go-spring/go-spring) 项目。
 
 ## Installation
 
@@ -13,7 +13,7 @@
 ### Using go get
 
 ```
-go get github.com/jiangguilong2000/go-spring/starter-grpc@v1.1.0-rc2 
+go get github.com/go-spring/starter-grpc@v1.1.0-rc2 
 ```
 
 ## Quick Start
@@ -21,7 +21,7 @@ go get github.com/jiangguilong2000/go-spring/starter-grpc@v1.1.0-rc2
 ### gRPC Server
 
 ```
-import "github.com/jiangguilong2000/go-spring/starter-grpc/server"
+import "github.com/go-spring/starter-grpc/server"
 ```
 
 `main.go`
@@ -34,11 +34,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/grpc"
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	pb "github.com/jiangguilong2000/go-spring/starter-grpc/example/helloworld"
+	"github.com/go-spring/spring-core/grpc"
+	"github.com/go-spring/spring-core/gs"
+	pb "github.com/go-spring/starter-grpc/example/helloworld"
 
-	_ "github.com/jiangguilong2000/go-spring/starter-grpc/server"
+	_ "github.com/go-spring/starter-grpc/server"
 )
 
 func init() {
@@ -69,7 +69,7 @@ func main() {
 ### gRPC Client
 
 ```
-import "github.com/jiangguilong2000/go-spring/starter-grpc/client"
+import "github.com/go-spring/starter-grpc/client"
 ```
 
 `main.go`
@@ -81,11 +81,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jiangguilong2000/go-spring/spring-core/gs"
-	"github.com/jiangguilong2000/go-spring/spring-core/web"
-	pb "github.com/jiangguilong2000/go-spring/starter-grpc/example/helloworld"
+	"github.com/go-spring/spring-core/gs"
+	"github.com/go-spring/spring-core/web"
+	pb "github.com/go-spring/starter-grpc/example/helloworld"
 
-	_ "github.com/jiangguilong2000/go-spring/starter-grpc/client"
+	_ "github.com/go-spring/starter-grpc/client"
 )
 
 const (
